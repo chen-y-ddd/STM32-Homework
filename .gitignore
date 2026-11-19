@@ -1,0 +1,26 @@
+# Keil MDK 编译产物
+*.o
+*.i
+*.axf
+*.hex
+*.bin
+*.lst
+*.map
+*.crf
+*.d
+*.dep
+*.lnp
+*.tra
+*.bak
+*.uvguix.*
+RTE/
+Debug/
+DebugConfig/
+Listings/
+Objects/
+
+# STM32CubeMX
+*.backup
+# 系统垃圾
+.DS_Store
+Thumbs.db
