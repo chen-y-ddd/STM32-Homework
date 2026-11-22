@@ -111,12 +111,13 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	if(MyGetTick()>=expiretime)
-	{
-		HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
-		expiretime=MyGetTick()+250;
-	}
+	
     /* USER CODE BEGIN 3 */
+		if(MyGetTick()>=expiretime)
+		{
+			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
+			expiretime=MyGetTick()+250;
+		}
   }
   /* USER CODE END 3 */
 }
