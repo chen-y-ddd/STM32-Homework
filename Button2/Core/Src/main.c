@@ -136,7 +136,6 @@ HAL_TIM_Base_Start_IT(&htim1);
 				{
 					if(duration<1000)
 					{
-						flag=0;
 						HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
 					}
 					else
