@@ -2,7 +2,7 @@
 ## 第一题
 **项目文件夹**:Button2
 ## 第二题
-**项目文件夹**:BreathingLight duoji
+**项目文件夹**:BreathingLight;duoji
 呼吸灯：PSC=7;ARR=999;
 舵机：PSC=71;ARR=19999;
 CCR与角度换算：CCR=1000+angle*4000/180;(实际采用CCR=500+angle*2000/180计算，因为我的舵机按照理论公式只能转100度左右)
